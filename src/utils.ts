@@ -8,20 +8,20 @@ export function getCerFromPDF() {
 }
 
 const getSubstringIndex = (str: Buffer, substring: string, n: number) => {
-  let times = 0;
-  let index = 0;
+  let times = 0
+  let index = 0
 
   while (times < n && index !== -1) {
-       index = str.indexOf(substring, index + 1);
-       times += 1;
-  };
+    index = str.indexOf(substring, index + 1)
+    times += 1
+  }
 
-  return index;
-};
+  return index
+}
 
 /**
  *
- * @param pdf Buffer 
+ * @param pdf Buffer
  * @param signatureCount signature position in pdf file
  * @returns signature object
  * @dev This code from https://github.com/vbuch/node-signpdf. Thank you for awesome word.
@@ -57,7 +57,6 @@ export function extractSignatureFromPDF(pdf: Buffer, signatureCount = 1) {
     }
   }
 }
-
 
 export function splitToWords(
   number: bigint,
