@@ -2,8 +2,8 @@
 
 ![Anon Aadhaar card lite](https://github.com/privacy-scaling-explorations/anon-aadhaar/assets/67648863/b29d784b-610a-4222-8fa5-4a2972e492fd)
 
-Anon Aadhaar is a protocol that let users anonymously prove their Aadhaar identity, in a very fast and simple way.
-The core of the procotocol is the circuits, but we also provide a SDK to let any app use our protocol.
+Anon Aadhaar is a protocol that lets users anonymously prove their Aadhaar identity, in a very fast and simple way.
+The core of the protocol is the circuits, but we also provide a SDK to let any app use our protocol.
 
 ## 📦 Packages
 
@@ -49,7 +49,7 @@ yarn dev-install:circuit
 
 Generate verification key and proving key.
 
-**NOTE:This action use for development only. Don't use it in product, please!**
+**NOTE:This action is used for development only. Don't use it in product, please!**
 
 ```bash
 yarn dev-setup:circuit
